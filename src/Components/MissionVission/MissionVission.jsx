@@ -2,7 +2,7 @@ import './missionVission.css'
 
 const MissionVission = () => {
     return (
-        <div className='my-10'>
+        <div className='my-10 mx-5  md:mx-0'>
             <div className="nodes promoted">
                 {/* <div id="node-785" className="node node-type-page">
                     <h1 className="mission-title font-semibold"><a href="/page/mission-vision">Mission &amp; Vision</a></h1>

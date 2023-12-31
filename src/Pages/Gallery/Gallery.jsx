@@ -17,7 +17,7 @@ const Gallery = () => {
 
                     return (
                         <div key={_id} className="relative overflow-hidden rounded college-card">
-                            <img src={Teacher_img} className="w-full h-[250px]" alt={Teacher_name} />
+                            <img src={Teacher_img} className="w-full  h-[120px] md:h-[250px]" alt={Teacher_name} />
                             <div className="college-name">
                                 <p>{Teacher_name}</p>
                             </div>

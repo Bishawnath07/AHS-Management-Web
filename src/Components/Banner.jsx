@@ -44,26 +44,26 @@ const Banner = () => {
           >
             <SwiperSlide className="custom-slide">
               <div className="relative ">
-                <img src={img6} className="md:h-[60vh] h-[16vh] opacity-100    w-full " alt="" />
+                <img src={img6} className="md:h-[60vh] h-[20vh] opacity-100    w-full " alt="" />
 
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="relative ">
-                <img src={img2} className="md:h-[60vh]  h-[16vh] opacity-100    w-full " alt="" />
+                <img src={img2} className="md:h-[60vh]  h-[20vh] opacity-100    w-full " alt="" />
 
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="relative ">
-                <img src={img4} className="md:h-[60vh] h-[16vh] opacity-100    w-full " alt="" />
+                <img src={img4} className="md:h-[60vh] h-[20vh] opacity-100    w-full " alt="" />
 
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="relative ">
-                <img src={img5} className="md:h-[60vh] h-[16vh] opacity-100    w-full " alt="" />
+                <img src={img5} className="md:h-[60vh] h-[20vh] opacity-100    w-full " alt="" />
 
               </div>
             </SwiperSlide>

@@ -37,10 +37,10 @@ const Navbar = () => {
 
   const navItems = (
     <>
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <Link to="/">Home</Link>
       </li>
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <Link to="/admission">
           <div className="dropdown dropdown-hover">
             <div className="flex items-center gap-2">
@@ -50,40 +50,40 @@ const Navbar = () => {
           </div>
         </Link>
       </li>
-      <li className=" text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li className=" text-black  cursor-pointer  rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <details className="z-20">
           <summary>Facilities</summary>
-          <ul>
-            <li><a onClick={handleClick} >Library</a></li>
-            <li><a onClick={handleClick} >Play Ground</a></li>
-            <li><a onClick={handleClick} >Physics Lab</a></li>
-            <li><a onClick={handleClick} >Biology Lab</a></li>
-            <li><a onClick={handleClick} >ICT Lab</a></li>
-            <li><a onClick={handleClick} >Chemistry Lab</a></li>
-            <li><a onClick={handleClick} >Co Curricular Activity</a></li>
+          <ul className="ml-5">
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Library</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Play Ground</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Physics Lab</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Biology Lab</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >ICT Lab</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Chemistry Lab</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Co Curricular Activity</a></li>
             <li>
             </li>
           </ul>
         </details>
       </li>
-      <li className=" text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li className=" text-black cursor-pointer   rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <details className="z-20">
           <summary>Academic</summary>
-          <ul>
-            <li><a>Class Schedule</a></li>
-            <li><a>Our Teachers</a></li>
-            <li><a>Our Staffs</a></li>
-            <li><a>Academic Rules</a></li>
-            <li><a>Academic Result</a></li>
-            <li><a>Academic Calendar</a></li>
-            <li><a>Attendance Sheet</a></li>
-            <li><a>Leave Information</a></li>
+          <ul className="ml-2">
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Class Schedule</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Our Teachers</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Our Staffs</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Rules</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Result</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Calendar</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Attendance Sheet</a></li>
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Leave Information</a></li>
           </ul>
 
         </details>
       </li>
 
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <Link to="/result">
           <div className="dropdown dropdown-hover">
             <div className="flex items-center gap-2">
@@ -93,7 +93,7 @@ const Navbar = () => {
           </div>
         </Link>
       </li>
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <Link to="/gallery">
           <div className="dropdown dropdown-hover">
             <div className="flex items-center gap-2">
@@ -104,7 +104,7 @@ const Navbar = () => {
           </div>
         </Link>
       </li>
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <Link to="/contact">Contact</Link>
       </li>
 
@@ -137,7 +137,7 @@ const Navbar = () => {
 
               </label>
             </div>
-            <ul tabIndex={0} className="dropdown-content z-40 p-3  shadow bg-base-100  w-32">
+            <ul tabIndex={0} className="dropdown-content z-40 p-3 shadow bg-base-100  w-36">
               {navItems}
             </ul>
           </div>

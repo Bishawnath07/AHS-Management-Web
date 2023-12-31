@@ -4,7 +4,7 @@ import './noticeboard.css'
 
 const NoticeBoard = () => {
     return (
-        <div>
+        <div className='mx-5 md:mx-0'>
 
             <div id="notice-board" className='mt-5'>
                 <div className="notice-board-bg">

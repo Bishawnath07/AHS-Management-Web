@@ -9,7 +9,8 @@ const Statistics = () => {
                 </div>
                 <div className=" pt-10 pb-10 m">
 
-                    <div className="md:flex justify-between items-center md:gap-10 mx-16">
+                    <div className="grid grid-cols-2
+                     md:grid-cols-3 lg:grid-cols-4  items-center gap-5 md:gap-10 ">
                         <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-8 w-36  rounded-[100%]  ">
                             <h3 className="text-[12x] md:text-[15px] font-bold text-center mb-2 ">Teachers</h3>
                             <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5">20</h3>
