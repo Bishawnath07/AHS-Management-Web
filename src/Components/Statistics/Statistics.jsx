@@ -7,24 +7,24 @@ const Statistics = () => {
                     <h3 className="text-center text-3xl font-bold ">Student Statistics</h3>
                     <h3 className="text-center text-2xl  ">Class wise Students</h3>
                 </div>
-                <div className="md:flex justify-between pt-10 pb-10 mx-auto w-[94%]">
+                <div className=" pt-10 pb-10 m">
 
-                    <div className="md:flex justify-between items-center md:gap-32">
-                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-3 w-28  rounded-[100%]  ">
+                    <div className="md:flex justify-between items-center md:gap-10 mx-16">
+                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-8 w-36  rounded-[100%]  ">
                             <h3 className="text-[12x] md:text-[15px] font-bold text-center mb-2 ">Teachers</h3>
                             <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5">20</h3>
 
                         </div>
-                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-3 w-28  rounded-[100%] ">
+                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-8 w-36  rounded-[100%] ">
                             <h3 className="text-[12x] md:text-[15px] font-bold text-center mb-2 "> Graduates</h3>
-                            <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5"> 1200</h3>
+                            <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5"> 1254</h3>
 
                         </div>
-                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-3 w-28  rounded-[100%]">
+                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-8 w-36  rounded-[100%]">
                             <h3 className="text-[12x] md:text-[15px] font-bold text-center mb-2 ">Class</h3>
                             <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5  rounded-md">7</h3>
                         </div>
-                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-3 w-28  rounded-[100%] ">
+                        <div className="col-3 border-[1px] border-solid border-[#b9d8f1] p-8 w-36  rounded-[100%] ">
                             <h3 className="text-[12x] md:text-[15px] font-bold text-center mb-2 ">Stuents</h3>
                             <h3 className="text-[12x] md:text-[25px] font-bold text-center mb-5  rounded-md">500</h3>
                         </div>

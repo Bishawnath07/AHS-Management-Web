@@ -12,7 +12,7 @@ const AutoCounter = () => {
     <div >
       <div className=" featured-items text-white bg-[#3e1e7e] mt-5 ">
 
-        <div className="md:flex justify-between mx-auto w-[80%]">
+        <div>
 
           <div className=" p-5 md:p-0">
             <ReactVisibilitySensor>
@@ -23,8 +23,8 @@ const AutoCounter = () => {
                     <h3 className="text-center text-2xl  ">Our Organization At a Glance</h3>
                   </div>
                   <MDBCardBody>
-                    <div className="md:flex justify-between items-center   md:gap-32">
-                      <div className="col-3">
+                    <div className="md:flex justify-between items-center   md:gap-10 mx-16">
+                      <div className="col-3 grid place-items-center">
                         <h3 className="text-[12x] md:text-xl font-bold text-center mb-5 ">Teachers</h3>
                         <img src="https://www.shaistaganjhighschool.edu.bd/assets/img/icon/conference-background-selected.png" alt="" />
                         <div className="  p-5 rounded-md">
@@ -38,7 +38,7 @@ const AutoCounter = () => {
                           </h4>
                         </div>
                       </div>
-                      <div className="col-3 ">
+                      <div className="col-3 grid place-items-center">
                         <h3 className="text-[12x] md:text-xl font-bold text-center mb-5 "> Graduates</h3>
                         <img src="https://www.shaistaganjhighschool.edu.bd/assets/img/icon/student-male.png" alt="" />
                         <div className="  p-5 rounded-md">
@@ -52,7 +52,7 @@ const AutoCounter = () => {
                           </h4>
                         </div>
                       </div>
-                      <div className="col-3">
+                      <div className="col-3 grid place-items-center">
                         <h3 className="text-[12x] md:text-xl font-bold text-center mb-5 ">Class</h3>
                         <img src="https://www.shaistaganjhighschool.edu.bd/assets/img/icon/classroom.png" alt="" />
                         <div className="  p-5 rounded-md">
@@ -66,7 +66,7 @@ const AutoCounter = () => {
                           </h4>
                         </div>
                       </div>
-                      <div className="col-3">
+                      <div className="col-3 grid place-items-center ">
                         <h3 className="text-[12x] md:text-xl font-bold text-center mb-5 ">Stuents</h3>
                         <img src="https://www.shaistaganjhighschool.edu.bd/assets/img/icon/teacher.png" alt="" />
                         <div className="  p-5 rounded-md">

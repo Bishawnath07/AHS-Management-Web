@@ -49,7 +49,7 @@
 
 .college-card:hover .college-name {
   opacity: 1; /* Show college name on hover */
-  background-color: rgba(0, 0, 0, 0.2); /* Set background opacity on hover */
+  background-color: rgba(8, 8, 8, 0.2); /* Set background opacity on hover */
 }
 
 .college-card:hover img {

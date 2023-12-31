@@ -1,7 +1,4 @@
-// import { FaUserAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import logo from "../../public/logo/logo.png"
-import { FaArrowDown } from "react-icons/fa";
 import logo from './Images/logos.png'
 import Marquee from "react-fast-marquee";
 import { useEffect, useState } from "react";
@@ -44,38 +41,48 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
-        <Link to="admission">
+        <Link to="/admission">
           <div className="dropdown dropdown-hover">
             <div className="flex items-center gap-2">
               <label tabIndex={0} className=" ">Admission</label>
-              <FaArrowDown />
             </div>
 
           </div>
         </Link>
       </li>
-      <li className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+      <li className=" text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
         <details className="z-20">
-          <summary>Parent</summary>
+          <summary>Facilities</summary>
           <ul>
-            <li onClick={handleClick}><a>Submenu 1</a></li>
-            <li onClick={handleClick}><a>Submenu 2</a></li>
+            <li><a onClick={handleClick} >Library</a></li>
+            <li><a onClick={handleClick} >Play Ground</a></li>
+            <li><a onClick={handleClick} >Physics Lab</a></li>
+            <li><a onClick={handleClick} >Biology Lab</a></li>
+            <li><a onClick={handleClick} >ICT Lab</a></li>
+            <li><a onClick={handleClick} >Chemistry Lab</a></li>
+            <li><a onClick={handleClick} >Co Curricular Activity</a></li>
             <li>
             </li>
           </ul>
         </details>
       </li>
-      <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
-        <Link to="admission">
-          <div className="dropdown dropdown-hover">
-            <div className="flex items-center gap-2">
-              <label tabIndex={0} className=" ">Facilitis</label>
-              {/* <FaArrowDown /> */}
-            </div>
+      <li className=" text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
+        <details className="z-20">
+          <summary>Academic</summary>
+          <ul>
+            <li><a>Class Schedule</a></li>
+            <li><a>Our Teachers</a></li>
+            <li><a>Our Staffs</a></li>
+            <li><a>Academic Rules</a></li>
+            <li><a>Academic Result</a></li>
+            <li><a>Academic Calendar</a></li>
+            <li><a>Attendance Sheet</a></li>
+            <li><a>Leave Information</a></li>
+          </ul>
 
-          </div>
-        </Link>
+        </details>
       </li>
+
       <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
         <Link to="/result">
           <div className="dropdown dropdown-hover">
@@ -87,10 +94,10 @@ const Navbar = () => {
         </Link>
       </li>
       <li onClick={handleClick} className="hover:text-blue-700 text-black    rounded-sm  md:text-[16px] text-[10px] mb-2 md:font-bold  font-semibold">
-        <Link to="admission">
+        <Link to="/gallery">
           <div className="dropdown dropdown-hover">
             <div className="flex items-center gap-2">
-              <label tabIndex={0} className=" ">Others</label>
+              <label tabIndex={0} className=" ">Gallery</label>
               {/* <FaArrowDown /> */}
             </div>
 

@@ -1,52 +1,27 @@
 [
   {
     "_id": 1,
-    "collage_name": "Campus1",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/1cfa789bf10aed0475f6ea68ab141586.jpg"
+    "teacher_name": "Shiekh Rassel Corner",
+    "teacher_img": "https://i.ibb.co/3h6KLQh/rasel-korner.jpg"
   },
   {
     "_id": 2,
-    "collage_name": "Campus2",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/95c9b974ea0ca665ff1feb2ee7953d50.jpg"
+    "teacher_name": "15 August-2022",
+    "teacher_img": "https://i.ibb.co/ckrc8Rg/augest15.jpg"
   },
   {
     "_id": 3,
-    "collage_name": "Campus3",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/e819240bc87d251582d9bba1dc1ba9d8.jpg"
+    "teacher_name": "15 August-2022",
+    "teacher_img": "https://i.ibb.co/pRMw4sF/15augest.jpg"
   },
   {
     "_id": 4,
-    "collage_name": "Campus4",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/b78f16bded890fe5df59184fcd444e3a.jpg"
+    "teacher_name": " BP Day",
+    "teacher_img": "https://i.ibb.co/N6NyYW1/BP.jpg"
   },
   {
     "_id": 5,
-    "collage_name": "Campus5",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/02402afe1e15227730f8fea5f4293199.jpg"
-  },
-  {
-    "_id": 6,
-    "collage_name": "Campus6",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/b8d851ccdfe9a357b28fb9ae2ca7365b.jpg"
-  },
-  {
-    "_id": 7,
-    "collage_name": "Campus7",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/994b39558b52637d475aeb1517495c3b.jpg"
-  },
-  {
-    "_id": 8,
-    "collage_name": "Campus8",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/0e5b1ab6cd72b30e4124a491c332e21a.jpg"
-  },
-  {
-    "_id": 9,
-    "collage_name": "Campus9",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/thumbnail/35e1866c9d27d6e2c70e53c645d61291.jpg"
-  },
-  {
-    "_id": 10,
-    "collage_name": "Campus10",
-    "collage_img": "https://www.dpi.edu.bd/img/gallery/large/e819240bc87d251582d9bba1dc1ba9d8.jpg"
+    "teacher_name": "Alokjhari High School lab",
+    "teacher_img": "https://i.ibb.co/0G4m6RW/lab.jpg"
   }
 ]

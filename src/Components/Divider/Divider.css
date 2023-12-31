@@ -1,0 +1,35 @@
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(200px);
+        /* Translate to the right */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Back to the original position */
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-30px);
+        /* Translate to the left */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Back to the original position */
+    }
+}
+
+.animate-slide-right-left {
+    animation: slideRight 4s linear infinite, slideLeft 4s linear infinite;
+}

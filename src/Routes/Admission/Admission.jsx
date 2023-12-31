@@ -1,65 +1,47 @@
-import {  useEffect, useState } from "react";
-import { Link,  } from "react-router-dom";
-
+import Divider from "../../Components/Divider/Divider";
 
 
 const Admission = () => {
-  const [allColleges, setAllColleges] = useState([]);
-
- 
-  useEffect(() => {
-    const load = async () => {
-      const res = await fetch("https://e-commerce-site-back-end.vercel.app/allCollege");
-      const data = await res.json();
-      setAllColleges(data);
-    };
-    load();
-  }, []);
-
-  
-  
-
 
   return (
-    <>
-      <div className="overflow-x-auto ">
-        <table className="table w-full mt-5">
-          {/* head */}
-          <thead>
-            <tr>
-              <th></th>
-              <th>College Name</th>
-              <th>Admission Last Date</th>
-              <th>Admission Process</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            {allColleges.map((college, index) => {
-              const {
-                college_name,
-               
-                admission_date,
-               
-                admission_process,
-                _id,
-              } = college;
-              return <>
-              <tr>
-              <th>{index + 1}</th>
-              <td>{college_name}</td>
-              <td>{admission_date}</td>
-              <td>{admission_process}</td>
-              <td><Link to={`/admissionCollege/${_id}`}>
-              <button className="border px-7 py-2 rounded bg-image text-black transition-all duration-500 ease-linear hover:scale-105 transform-cpu">Admission</button>
-              </Link></td>
-              </tr>
-              </>
-            })}
-          </tbody>
-        </table>
+    <div className="max-w-7xl mx-auto md:mt-10 mt-10">
+      <h1 className='text-[24px] font-semibold grid place-items-center my-5 '>Home  ~ Admission</h1>
+      <Divider ></Divider>
+      <div className="mt-10">
+        <h2 className="text-[16px] md:text-[24px] font-bold grid place-items-center ">Why Study ?</h2>
+        <div className="container mx-5 md:mx-36 mt-8">
+          <ul className="list-disc pl-4">
+            <li>Activities of Session start and finish in due time.</li>
+            <li>Students are taught by experienced & skillful teachers.</li>
+            <li>Safe and enlarged campus.</li>
+            <li>Clean, decorated, and advanced classrooms.</li>
+            <li>Support of Sylhet gives us a full-time security.</li>
+            <li>Advanced Science and computer lab.</li>
+            <li>A huge Library with ample books.</li>
+            <li>Entirely smoke-free and Politics-free environment.</li>
+            <li>In every session, a calendar is disclosed.</li>
+            <li>Ensuring students’ presence with the help of related teachers.</li>
+            <li>
+              Ensuring students’ 100% pass with GPA: 5 in the public exams and GPA:
+              5 holders are given a warm reception and crest.
+            </li>
+            <li>Ensuring students’ participation in scout/girls Guide and Rover scout.</li>
+            <li>
+              After ten days of all semester progress report of the students are sent
+              to the respective guardians for conversance. Progress report of first
+              & second semesters are only taken back from the students. Besides,
+              Answer scripts of the Annual examination are shown to the guardians
+              with the permission of the Humble Principal (If Applicable).
+            </li>
+            <li>
+              There is an arrangement of guardian’s Meeting for open discussion about
+              study & Progress of the students.
+            </li>
+          </ul>
+        </div>
+
       </div>
-    </>
+    </div>
   );
 };
 
