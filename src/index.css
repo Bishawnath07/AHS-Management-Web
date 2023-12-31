@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+  *{
+    font-family: 'Open Sans', sans-serif;
+  }
+    .regular{
+      font-family: 'Playfair Display';
+    }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-image{
+  background: linear-gradient(to top, #98f15c, #b7f78c);
+}
+
+/* styles.css (or add inline styles in your component) */
+
+/* Animation for college name */
+.fade-in {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+/* Display college name and lighten the image on hover */
+.college-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.college-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Initial opacity for background */
+  padding: 8px;
+  color: white;
+  opacity: 0; /* Initial opacity for college name */
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.college-card:hover .college-name {
+  opacity: 1; /* Show college name on hover */
+  background-color: rgba(0, 0, 0, 0.2); /* Set background opacity on hover */
+}
+
+.college-card:hover img {
+  filter: brightness(1.2); /* Lighten the image on hover */
+  opacity: 0.7;
+}
+
+
+.bg-image2{
+  background: url("../public/image/weather.png");
+
+}

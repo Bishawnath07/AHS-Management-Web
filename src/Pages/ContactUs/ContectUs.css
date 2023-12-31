@@ -1,0 +1,92 @@
+
+.form-container {
+    width: 100%;
+    max-width: 419px;
+    border-radius: 10px;
+    border: 1px solid #3b3b3b;
+    background-color: #171717;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 226px;
+  }
+  
+  .form-container h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    height: 52px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #404040;
+    background: #171717;
+    mix-blend-mode: luminosity;
+    backdrop-filter: blur(10px);
+    color: #FFF;
+  }
+  
+  textarea {
+    height: auto;
+  }
+  
+  .contect-button {
+    width: 100%;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #3C4FF8;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+  .contuct-circle-left {
+    width: 355px; 
+    height: 355px; 
+    flex-shrink: 0;
+    border-radius: 355px; 
+    background: #7074FF; 
+    left: -5%;
+    filter: blur(250px); 
+    position: absolute;
+  }
+  .contuct-circle-right {
+    width: 355px; 
+    height: 355px; 
+    flex-shrink: 0;
+    border-radius: 355px; 
+    background: #7074FF; 
+    right: -5%;
+    filter: blur(250px); 
+    position: absolute;
+  }
+  
+  /* Media Query for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .contect-container {
+      max-width: 90%;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+    }
+  }
+  

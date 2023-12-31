@@ -1,0 +1,43 @@
+.swiper-button-prev{
+    display: none;
+}
+
+.swiper-button-next{
+    display: none;
+}
+
+@media screen and (width: 360px) {
+    .nav-btn{
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .nav-btn {
+        margin-left: 70px;
+    }
+
+}
+@media (min-width: 390px) and (max-width: 430px) {
+    .nav-btn {
+        margin-left: 70px;
+    }
+
+}
+@media (min-width: 520px) and (max-width: 850px) {
+    .nav-btn {
+        margin-left: 150px;
+    }
+
+}
+
+
+@media (min-width: 430px) and (max-width: 932px) {
+    .nav-btn {
+        margin-left: 100px;
+    }
+
+}
+
+
+

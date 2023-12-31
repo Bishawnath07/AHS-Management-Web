@@ -1,0 +1,41 @@
+
+
+.notice-board-bg {
+    background: url(../images/welcome_grad.png) repeat-x scroll left top transparent;
+    background-image: url(./image/bg_notice_board.png);
+    background-repeat: no-repeat;
+    padding: 10px 0 20px 120px;
+}
+#notice-board-ticker {
+    padding-right: 10px;
+}
+#notice-board {
+    /* background: url(/themes/responsive_npf/images/welcome_grad.png) repeat-x scroll center bottom #EBEBEB; */
+    border: 1px solid #DDDDDD;
+    font-size: 1em;
+    padding: 0 0 10px 0;
+    margin-bottom: 20px;
+}
+
+#notice-board h3 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+#notice-board ul a {
+    border-bottom: 1px dotted #666;
+    font-size: 13px;
+    color: #595757;
+}
+.history-title{
+            padding: 0 0 0 10px;
+            font-size: 1.2em;
+            line-height: 1.7em;
+            color: #fff;
+            font-weight: normal;
+            background-color: #609513 !important;
+}
+.history{
+    line-height: 1.3em;
+        font-size: 0.9em;
+}

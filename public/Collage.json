@@ -1,0 +1,73 @@
+
+{
+  "colleges": [
+    {
+      "college_name": "Harmony University",
+      "college_image": "https://example.com/harmony_university_image.jpg",
+      "admission_dates": "Fall Semester: August 1 - September 15, Spring Semester: January 5 - February 15",
+      "events": [
+        "Annual Cultural Fest - \"Harmonious Melodies\": Celebrate the diversity of talents through music, dance, and art every November.",
+        "Science & Technology Symposium: A week-long event where scholars present groundbreaking research and innovations."
+      ],
+      "research_history": "Harmony University takes pride in its rich research legacy, producing Nobel laureates and contributing to major scientific advancements.",
+      "sports": "Join our renowned sports teams and participate in various athletic events, including football, basketball, swimming, and more."
+    },
+    {
+      "college_name": "Aurora Institute of Arts",
+      "college_image": "https://example.com/aurora_institute_image.jpg",
+      "admission_dates": "Spring Session: January 20 - March 15, Fall Session: August 10 - September 30",
+      "events": [
+        "Annual Art Gala: An enchanting evening celebrating creativity and showcasing the exceptional artwork of our students and faculty.",
+        "Theater Festival - \"Spotlight Nights\": Witness mesmerizing theatrical performances by budding actors and directors."
+      ],
+      "research_history": "Aurora Institute of Arts fosters innovative artistic research, nurturing talents that redefine the boundaries of creativity.",
+      "sports": "Embracing athleticism and artistic expression, the institute offers unique sports like Parkour, Capoeira, and Yoga for students to explore."
+    },
+    {
+      "college_name": "Zenith Technological Institute",
+      "college_image": "https://example.com/zenith_technological_image.jpg",
+      "admission_dates": "Summer Intake: April 1 - May 31, Winter Intake: November 5 - December 15",
+      "events": [
+        "HackZTI: An annual hackathon that challenges students to solve real-world problems using technology and creativity.",
+        "TechExpo: A showcase of cutting-edge projects and research conducted by students in various tech disciplines."
+      ],
+      "research_history": "Zenith Tech is renowned for its groundbreaking research in computer science, engineering, and robotics, pushing the boundaries of technological advancement.",
+      "sports": "Embrace the spirit of innovation on and off the field with Esports competitions, drone racing, and robotic competitions."
+    },
+    {
+      "college_name": "Marine Academy",
+      "college_image": "https://example.com/marine_academy_image.jpg",
+      "admission_dates": "Fall Semester: July 20 - August 31, Spring Semester: January 10 - February 28",
+      "events": [
+        "Marine Discovery Week: A hands-on exploration of marine life and ecosystems, engaging students in marine conservation efforts.",
+        "Sailing Regatta: Compete in thrilling sailing competitions and learn seamanship from seasoned sailors."
+      ],
+      "research_history": "Marine Academy has a legacy of pioneering marine research, contributing to oceanography and marine conservation.",
+      "sports": "Discover a love for water sports with activities like scuba diving, snorkeling, and kayaking."
+    },
+    {
+      "college_name": "Celestial Medical College",
+      "college_image": "https://example.com/celestial_medical_college_image.jpg",
+      "admission_dates": "Fall Intake: September 1 - October 31, Spring Intake: February 1 - March 31",
+      "events": [
+        "Medical Symposium - \"Healing Horizons\": An event that brings together medical professionals to share knowledge and advancements.",
+        "Health and Wellness Fair: Promoting healthy lifestyles with free medical check-ups and fitness workshops."
+      ],
+      "research_history": "Celestial Medical College excels in medical research, leading to breakthroughs in healthcare and medical treatments.",
+      "sports": "Nurture a healthy mind and body with sports like tennis, swimming, and yoga to de-stress during your medical studies."
+    },
+    {
+      "college_name": "Stellar Business School",
+      "college_image": "https://example.com/stellar_business_school_image.jpg",
+      "admission_dates": "Summer Session: May 1 - June 30, Winter Session: December 1 - January 15",
+      "events": [
+        "Entrepreneurship Summit: A platform for aspiring entrepreneurs to pitch ideas and learn from successful business leaders.",
+        "Financial Symposium: Understanding global markets and financial strategies from experts in the field."
+      ],
+      "research_history": "Stellar Business School is renowned for its business research, shaping innovative strategies and thought leadership.",
+      "sports": "Develop leadership skills with sports like team-building exercises, leadership retreats, and business case competitions."
+    }
+  ]
+}
+
+

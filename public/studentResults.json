@@ -1,0 +1,13 @@
+[
+  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 3 },
+  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 2 },
+  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 1 },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 1 },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 2 },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 3 },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 1 },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 2 },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 3 },
+  { "rollNumber": "004", "name": "Alice Williams", "marks": 95, "department": "Computer Science", "semester": 4 },
+  { "rollNumber": "005", "name": "Charlie Brown", "marks": 88, "department": "Electrical Engineering", "semester": 4 }
+]

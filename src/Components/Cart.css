@@ -1,0 +1,17 @@
+
+.title {
+    background-color: #609513 !important;
+    color: #fff;
+}
+
+.title  {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title {
+    padding: 5px;
+    font-size: 1em;
+    overflow: hidden;
+    line-height: 1.2em;
+}

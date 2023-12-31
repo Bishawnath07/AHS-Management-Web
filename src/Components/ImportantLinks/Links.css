@@ -1,0 +1,68 @@
+.sidebarComn h2 {
+    padding: 0 8px 0;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    font-weight: normal;
+    color: #fff;
+    background: #609513;
+    border-bottom: 1px solid #5C6907;
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 0 #000;
+}
+.block h3 {
+    /* background-color: #EB6700; */
+    background-color: #609513;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 1.175em;
+    font-weight: normal;
+    line-height: 31px;
+    padding: 0 35px 0 7px;
+    position: relative;
+}
+.block h3 {
+    /* background-color: #EB6700; */
+    background-color: #609513;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 1.175em;
+    font-weight: normal;
+    line-height: 31px;
+    padding: 0 35px 0 7px;
+    position: relative;
+}
+.sidebarComn {
+    border: 1px solid #bea398;
+    margin: 0.8em 0 0;
+    background: rgba(247, 247, 247, 0.79);
+}
+.block .block-body {
+    line-height: 1.118em;
+}
+.sidebarComn ul {
+    width: 100%;
+    padding: 0.188em 0 0;
+    overflow: hidden;
+}
+
+
+.sidebarComn ul li {
+    width: 90%;
+    padding: 0.2em 2% 0.2em 0%;
+    float: left;
+    border-bottom: 1px solid #d5bbb2;
+    /* background: url(../images/bullet6.gif) no-repeat 2% center; */
+    color: #717171;
+    font-size: 0.875em;
+    line-height: 1.357em;
+}
+.block ul li {
+    list-style-type: none;
+    margin: 0;
+}
+
+.sidebarComn ul li a {
+    color: #717171;
+    text-decoration: none;
+}

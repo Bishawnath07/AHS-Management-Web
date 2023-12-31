@@ -1,0 +1,19 @@
+.mission-title{
+        padding: 0 0 0 10px;
+            font-size: 1.2em;
+            line-height: 1.7em;
+            color: #fff;
+            font-weight: normal;
+            background-color: #609513 !important;
+        }
+
+        .all-p{
+                    line-height: 1.3em;
+                    font-size: 0.9em;
+        }
+        .show-more{
+                text-align: right;
+                display: none;
+                width: 100%;
+                color: rgb(241, 147, 0);
+            }
