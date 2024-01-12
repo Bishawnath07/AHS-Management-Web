@@ -21,7 +21,7 @@ const MissionVission = () => {
                     <h1 className="mission-title font-semibold my-5"><a href="/page/principal-massage">Message From Principal</a></h1>
                     <div className="">
                         <div className="node-excerpt">
-                            <p className='md:flex gap-5 my-5 text-justify' >
+                            <p className='md:flex gap-5 my-5 text-justify text-[12px] md:text-[16px] ' >
                                 <img src='https://i.ibb.co/xDBXvYT/khageshar-sir.jpg' alt="" width="120" height="150" />
                                 Alokjhari High School is an educational institution located in Jaiganj Jaiganj Khansama Dinajpur. Its Educational Institute Identification Number, or EIIN, is 120614. On January 01, 1962, it was first launched. Alternative name of Alokjhari High School is Alokjhari High School. It is a combined type of co-educational program. The institution imparts education in the following fields: Science, Business Studies, Humanities.
                             </p>
@@ -59,7 +59,7 @@ const MissionVission = () => {
                                     <param name="src" value="https://www.youtube.com/v/iDstGEvUCLE&amp;feature" />
                                 </object>
                             </p>
-                        </div>                <a href="javascript:;" id="click556">...Show more</a>
+                        </div>
                     </div>
                     <div id="des556" >
                         <div className="node-body">

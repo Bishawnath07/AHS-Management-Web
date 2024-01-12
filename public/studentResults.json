@@ -1,13 +1,13 @@
 [
-  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 3 },
-  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 2 },
-  { "rollNumber": "001", "name": "John Doe", "marks": 85, "department": "Computer Science", "semester": 1 },
-  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 1 },
-  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 2 },
-  { "rollNumber": "002", "name": "Jane Smith", "marks": 92, "department": "Electrical Engineering", "semester": 3 },
-  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 1 },
-  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 2 },
-  { "rollNumber": "003", "name": "Bob Johnson", "marks": 78, "department": "Mechanical Engineering", "semester": 3 },
-  { "rollNumber": "004", "name": "Alice Williams", "marks": 95, "department": "Computer Science", "semester": 4 },
-  { "rollNumber": "005", "name": "Charlie Brown", "marks": 88, "department": "Electrical Engineering", "semester": 4 }
+  { "rollNumber": "001", "name": "John Doe", "marks": 785,  "semester":"Six", "department": "Computer Science" },
+  { "rollNumber": "001", "name": "John Doe", "marks": 855, "semester":"Seven", "department": "Computer Science" },
+  { "rollNumber": "001", "name": "John Doe", "marks": 850, "semester":"Eight", "department": "Computer Science"  },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 922, "semester":"Six", "department": "Electrical Engineering" },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 920, "semester":"Seven", "department": "Electrical Engineering" },
+  { "rollNumber": "002", "name": "Jane Smith", "marks": 921, "semester":"Eight", "department": "Electrical Engineering" },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 780, "semester":"Six", "department": "Mechanical Engineering" },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 788, "semester":"Seven", "department": "Mechanical Engineering" },
+  { "rollNumber": "003", "name": "Bob Johnson", "marks": 781, "semester":"Eight", "department": "Mechanical Engineering" },
+  { "rollNumber": "004", "name": "Alice Williams", "marks": 795, "semester":"Six", "department": "Computer Science" },
+  { "rollNumber": "005", "name": "Charlie Brown", "marks": 880, "semester":"Six", "department": "Electrical Engineering" }
 ]

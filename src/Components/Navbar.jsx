@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  console.log(showNavbar)
 
   const handleClick = () => {
     const elem = document.activeElement;
@@ -52,17 +53,20 @@ const Navbar = () => {
       </li>
       <li className=" text-black  cursor-pointer  rounded-sm  md:text-[16px] text-[12px] mb-2 md:font-bold  font-semibold">
         <details className="z-20">
-          <summary>Facilities</summary>
+          <summary >Facilities</summary>
           <ul className="ml-5">
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Library</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Play Ground</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Physics Lab</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Biology Lab</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >ICT Lab</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Chemistry Lab</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Co Curricular Activity</a></li>
-            <li>
-            </li>
+            <Link to="/library"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Library</a></li></Link>
+            <Link to="/playground"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Play Ground</a></li></Link>
+            <Link to="/physicslab"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Physics Lab Lab</a></li></Link>
+
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} ><Link to="/biologylab">Biology Lab</Link> Lab</a></li>
+
+            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} ><Link to="/ictlab">ICT Lab</Link> </a></li>
+
+            <Link to="/chemistrylab"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Chemistry Lab </a></li></Link>
+
+            <Link to="/cocurricular"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick} >Co Curricular Activity</a></li></Link>
+
           </ul>
         </details>
       </li>
@@ -70,16 +74,21 @@ const Navbar = () => {
         <details className="z-20">
           <summary>Academic</summary>
           <ul className="ml-2">
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Class Schedule</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Our Teachers</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Our Staffs</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Rules</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Result</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Academic Calendar</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Attendance Sheet</a></li>
-            <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a>Leave Information</a></li>
-          </ul>
+            <Link to="/schedule">
+              <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Class Schedule</a></li></Link>
+            <Link to="/teachers">
+              <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Our Teachers</a></li></Link>
+            <Link to="/staffs">
+              <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Our Staffs</a></li></Link>
+            <Link to="/rules">
+              <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Academic Rules</a></li></Link>
+            <Link to="/results">
+              <li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Academic Result</a></li></Link>
+            <Link to="/calandar"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Academic Calendar</a></li></Link>
+            <Link to="/attendance"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Attendance Sheet</a></li></Link>
+            <Link to="information"><li className="hover:bg-slate-300 p-[2px] rounded-sm cursor-pointer "><a onClick={handleClick}> Leave Information</a></li></Link>
 
+          </ul>
         </details>
       </li>
 

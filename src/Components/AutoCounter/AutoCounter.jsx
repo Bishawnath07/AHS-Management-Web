@@ -18,9 +18,9 @@ const AutoCounter = () => {
             <ReactVisibilitySensor>
               {({ isVisible }) => (
                 <MDBCard>
-                  <div className="my-7">
-                    <h3 className="text-center text-3xl font-bold ">Statistics</h3>
-                    <h3 className="text-center text-2xl  ">Our Organization At a Glance</h3>
+                  <div className="md:my-7">
+                    <h3 className="text-center text-[16px] md:text-3xl font-bold ">Statistics</h3>
+                    <h3 className="text-center text-[14px] md:text-2xl  ">Our Organization At a Glance</h3>
                   </div>
                   <MDBCardBody>
                     <div className="grid grid-cols-2

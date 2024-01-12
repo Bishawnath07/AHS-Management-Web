@@ -7,9 +7,9 @@ const Admission = () => {
     <div className="max-w-7xl mx-auto md:mt-10 mt-10">
       <h1 className='text-[24px] font-semibold grid place-items-center my-5 '>Home  ~ Admission</h1>
       <Divider ></Divider>
-      <div className="mt-10">
+      <div className="mt-10  md:mx-0">
         <h2 className="text-[16px] md:text-[24px] font-bold grid place-items-center ">Why Study ?</h2>
-        <div className="container mx-5 md:mx-36 mt-8">
+        <div className=" mx-5 md:mx-36 mt-8">
           <ul className="list-disc pl-4">
             <li>Activities of Session start and finish in due time.</li>
             <li>Students are taught by experienced & skillful teachers.</li>

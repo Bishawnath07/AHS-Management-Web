@@ -29,7 +29,7 @@ const NoticeBoard = () => {
                                 <a href="/nodes/view/711">Government directives</a>
                             </li>
                         </ul>
-                        <a className="btn right" href="/notice">More</a>
+                        <a className="btn right" href="">More</a>
                     </div>
                 </div>
             </div>
