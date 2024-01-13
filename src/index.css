@@ -17,6 +17,17 @@
   background: linear-gradient(to top, #98f15c, #b7f78c);
 }
 
+.student_statics_img {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50%;
+  border: 2px solid;
+  margin: auto;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
 /* styles.css (or add inline styles in your component) */
 
 /* Animation for college name */

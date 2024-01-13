@@ -1,0 +1,75 @@
+.bg-images{
+    background-image: url("./image/bg2.png");
+    background-position: center;
+}
+
+.enroll .form-title {
+    padding: 20px 35px;
+    border-radius: 5px 5px 0px 0px;
+}
+.learnedu-sidebar.left {
+    border-left: 0px;
+    border-right: 1px solid #e6e6e6;
+    padding: 0px;
+}
+.learnedu-sidebar .single-widget {
+    margin-top: 0px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    background: #ffffffb0;
+    border-radius: 0 0 5px 5px;
+}
+.single-post {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+.post-img {
+    float: left;
+    width: 70px;
+    margin-right: 10px;
+}
+.evdate {
+    width: 100%;
+    max-height: 60px;
+    background: #f4f4f4;
+    min-height: 60px;
+    border-radius: 2px;
+    border: 0.5px px solid #ffe4e4;
+}
+.evdate .ev1,
+.evdate .ev2 {
+    height: 30px;
+    text-align: center;
+    color: #020085;
+    font-size: 20px;
+    font-weight: 700;
+}
+.evdate .ev2 {
+    padding: 3px 0px;
+    text-align: center;
+    background: #020085;
+    color: white;
+}
+.notice_date {
+    color: #020085;
+}
+
+.learnedu-sidebar .post-info h4 {
+    color: #252525;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.events{
+    padding: 0;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #fff;
+    background: #020085;
+    padding: 20px 35px;
+    border-radius: 5px 5px 0px 0px;
+}

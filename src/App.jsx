@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import AutoCounter from "./Components/AutoCounter/AutoCounter";
+import ManagingCommite from "./Components/ManagingCommittee/ManagingCommite";
 import MissionVission from "./Components/MissionVission/MissionVission";
 import NoticeBoard from "./Components/NoticeBoard/NoticeBoard";
 import Statistics from "./Components/Statistics/Statistics";
@@ -16,11 +17,8 @@ function App() {
       <Statistics></Statistics>
       <AboutUs></AboutUs>
       <Gallery></Gallery>
+      <ManagingCommite></ManagingCommite>
       <MissionVission></MissionVission>
-      {/* <div className="md:w-[25%] w-[60%] mx-auto ">
-          <Carts></Carts>
-          <ImportantLinks></ImportantLinks>
-        </div> */}
 
     </div>
 
